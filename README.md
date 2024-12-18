@@ -8,9 +8,6 @@ PhotoMania is a simple and delightful iOS app built with SwiftUI. The app allows
 - **SwiftUI Design**: Built with a modern and responsive SwiftUI layout.
 - **Smooth User Experience**: Asynchronous image fetching ensures the app remains responsive.
 
-## Screenshots
-
-> *(Include screenshots of the app here, such as the default view and a loaded random image view.)*
 
 ## Installation
 

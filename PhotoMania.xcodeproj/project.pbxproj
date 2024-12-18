@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA5C0DF2D13589200A60E42 /* PhotoManiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5C0DE2D13589200A60E42 /* PhotoManiaApp.swift */; };
+		CEA5C0E12D13589200A60E42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5C0E02D13589200A60E42 /* ContentView.swift */; };
+		CEA5C0E32D13589500A60E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA5C0E22D13589500A60E42 /* Assets.xcassets */; };
+		CEA5C0E62D13589500A60E42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA5C0E52D13589500A60E42 /* Preview Assets.xcassets */; };
+		CEA5C0F02D13589500A60E42 /* PhotoManiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5C0EF2D13589500A60E42 /* PhotoManiaTests.swift */; };
+		CEA5C0FA2D13589500A60E42 /* PhotoManiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5C0F92D13589500A60E42 /* PhotoManiaUITests.swift */; };
+		CEA5C0FC2D13589500A60E42 /* PhotoManiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5C0FB2D13589500A60E42 /* PhotoManiaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA5C0EC2D13589500A60E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA5C0D32D13589200A60E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA5C0DA2D13589200A60E42;
+			remoteInfo = PhotoMania;
+		};
+		CEA5C0F62D13589500A60E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA5C0D32D13589200A60E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA5C0DA2D13589200A60E42;
+			remoteInfo = PhotoMania;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA5C0DB2D13589200A60E42 /* PhotoMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5C0DE2D13589200A60E42 /* PhotoManiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManiaApp.swift; sourceTree = "<group>"; };
+		CEA5C0E02D13589200A60E42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA5C0E22D13589500A60E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA5C0E52D13589500A60E42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA5C0EB2D13589500A60E42 /* PhotoManiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoManiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5C0EF2D13589500A60E42 /* PhotoManiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManiaTests.swift; sourceTree = "<group>"; };
+		CEA5C0F52D13589500A60E42 /* PhotoManiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoManiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5C0F92D13589500A60E42 /* PhotoManiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManiaUITests.swift; sourceTree = "<group>"; };
+		CEA5C0FB2D13589500A60E42 /* PhotoManiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEA5C1082D13674D00A60E42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA5C0D82D13589200A60E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5C0E82D13589500A60E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5C0F22D13589500A60E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA5C0D22D13589200A60E42 = {
+			isa = PBXGroup;
+			children = (
+				CEA5C1082D13674D00A60E42 /* README.md */,
+				CEA5C0DD2D13589200A60E42 /* PhotoMania */,
+				CEA5C0EE2D13589500A60E42 /* PhotoManiaTests */,
+				CEA5C0F82D13589500A60E42 /* PhotoManiaUITests */,
+				CEA5C0DC2D13589200A60E42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA5C0DC2D13589200A60E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5C0DB2D13589200A60E42 /* PhotoMania.app */,
+				CEA5C0EB2D13589500A60E42 /* PhotoManiaTests.xctest */,
+				CEA5C0F52D13589500A60E42 /* PhotoManiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA5C0DD2D13589200A60E42 /* PhotoMania */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5C0DE2D13589200A60E42 /* PhotoManiaApp.swift */,
+				CEA5C0E02D13589200A60E42 /* ContentView.swift */,
+				CEA5C0E22D13589500A60E42 /* Assets.xcassets */,
+				CEA5C0E42D13589500A60E42 /* Preview Content */,
+			);
+			path = PhotoMania;
+			sourceTree = "<group>";
+		};
+		CEA5C0E42D13589500A60E42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5C0E52D13589500A60E42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA5C0EE2D13589500A60E42 /* PhotoManiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5C0EF2D13589500A60E42 /* PhotoManiaTests.swift */,
+			);
+			path = PhotoManiaTests;
+			sourceTree = "<group>";
+		};
+		CEA5C0F82D13589500A60E42 /* PhotoManiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5C0F92D13589500A60E42 /* PhotoManiaUITests.swift */,
+				CEA5C0FB2D13589500A60E42 /* PhotoManiaUITestsLaunchTests.swift */,
+			);
+			path = PhotoManiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA5C0DA2D13589200A60E42 /* PhotoMania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5C0FF2D13589500A60E42 /* Build configuration list for PBXNativeTarget "PhotoMania" */;
+			buildPhases = (
+				CEA5C0D72D13589200A60E42 /* Sources */,
+				CEA5C0D82D13589200A60E42 /* Frameworks */,
+				CEA5C0D92D13589200A60E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoMania;
+			productName = PhotoMania;
+			productReference = CEA5C0DB2D13589200A60E42 /* PhotoMania.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA5C0EA2D13589500A60E42 /* PhotoManiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5C1022D13589500A60E42 /* Build configuration list for PBXNativeTarget "PhotoManiaTests" */;
+			buildPhases = (
+				CEA5C0E72D13589500A60E42 /* Sources */,
+				CEA5C0E82D13589500A60E42 /* Frameworks */,
+				CEA5C0E92D13589500A60E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA5C0ED2D13589500A60E42 /* PBXTargetDependency */,
+			);
+			name = PhotoManiaTests;
+			productName = PhotoManiaTests;
+			productReference = CEA5C0EB2D13589500A60E42 /* PhotoManiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA5C0F42D13589500A60E42 /* PhotoManiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5C1052D13589500A60E42 /* Build configuration list for PBXNativeTarget "PhotoManiaUITests" */;
+			buildPhases = (
+				CEA5C0F12D13589500A60E42 /* Sources */,
+				CEA5C0F22D13589500A60E42 /* Frameworks */,
+				CEA5C0F32D13589500A60E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA5C0F72D13589500A60E42 /* PBXTargetDependency */,
+			);
+			name = PhotoManiaUITests;
+			productName = PhotoManiaUITests;
+			productReference = CEA5C0F52D13589500A60E42 /* PhotoManiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA5C0D32D13589200A60E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CEA5C0DA2D13589200A60E42 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CEA5C0EA2D13589500A60E42 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CEA5C0DA2D13589200A60E42;
+					};
+					CEA5C0F42D13589500A60E42 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CEA5C0DA2D13589200A60E42;
+					};
+				};
+			};
+			buildConfigurationList = CEA5C0D62D13589200A60E42 /* Build configuration list for PBXProject "PhotoMania" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA5C0D22D13589200A60E42;
+			productRefGroup = CEA5C0DC2D13589200A60E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA5C0DA2D13589200A60E42 /* PhotoMania */,
+				CEA5C0EA2D13589500A60E42 /* PhotoManiaTests */,
+				CEA5C0F42D13589500A60E42 /* PhotoManiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA5C0D92D13589200A60E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5C0E62D13589500A60E42 /* Preview Assets.xcassets in Resources */,
+				CEA5C0E32D13589500A60E42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5C0E92D13589500A60E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5C0F32D13589500A60E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA5C0D72D13589200A60E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5C0E12D13589200A60E42 /* ContentView.swift in Sources */,
+				CEA5C0DF2D13589200A60E42 /* PhotoManiaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5C0E72D13589500A60E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5C0F02D13589500A60E42 /* PhotoManiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5C0F12D13589500A60E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5C0FC2D13589500A60E42 /* PhotoManiaUITestsLaunchTests.swift in Sources */,
+				CEA5C0FA2D13589500A60E42 /* PhotoManiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA5C0ED2D13589500A60E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA5C0DA2D13589200A60E42 /* PhotoMania */;
+			targetProxy = CEA5C0EC2D13589500A60E42 /* PBXContainerItemProxy */;
+		};
+		CEA5C0F72D13589500A60E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA5C0DA2D13589200A60E42 /* PhotoMania */;
+			targetProxy = CEA5C0F62D13589500A60E42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEA5C0FD2D13589500A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA5C0FE2D13589500A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA5C1002D13589500A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoMania/Preview Content\"";
+				DEVELOPMENT_TEAM = V64Q38K362;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benayasoft.PhotoMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA5C1012D13589500A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoMania/Preview Content\"";
+				DEVELOPMENT_TEAM = V64Q38K362;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benayasoft.PhotoMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEA5C1032D13589500A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V64Q38K362;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benayasoft.PhotoManiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMania.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoMania";
+			};
+			name = Debug;
+		};
+		CEA5C1042D13589500A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V64Q38K362;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benayasoft.PhotoManiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMania.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoMania";
+			};
+			name = Release;
+		};
+		CEA5C1062D13589500A60E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V64Q38K362;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benayasoft.PhotoManiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoMania;
+			};
+			name = Debug;
+		};
+		CEA5C1072D13589500A60E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V64Q38K362;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benayasoft.PhotoManiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoMania;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA5C0D62D13589200A60E42 /* Build configuration list for PBXProject "PhotoMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5C0FD2D13589500A60E42 /* Debug */,
+				CEA5C0FE2D13589500A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA5C0FF2D13589500A60E42 /* Build configuration list for PBXNativeTarget "PhotoMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5C1002D13589500A60E42 /* Debug */,
+				CEA5C1012D13589500A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA5C1022D13589500A60E42 /* Build configuration list for PBXNativeTarget "PhotoManiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5C1032D13589500A60E42 /* Debug */,
+				CEA5C1042D13589500A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA5C1052D13589500A60E42 /* Build configuration list for PBXNativeTarget "PhotoManiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5C1062D13589500A60E42 /* Debug */,
+				CEA5C1072D13589500A60E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA5C0D32D13589200A60E42 /* Project object */;
+}

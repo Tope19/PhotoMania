@@ -58,7 +58,3 @@ Contributions are welcome! If you'd like to add a feature or fix an issue:
 1. Fork this repository.
 2. Create a new branch for your changes.
 3. Open a pull request with your updates.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
